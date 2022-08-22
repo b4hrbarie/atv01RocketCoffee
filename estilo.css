@@ -74,6 +74,21 @@ header {
     margin-bottom: 8px;
   }
 
-  .descricao, .preco {
+   .descricao {
     margin-bottom: 16px;
+    width: 240px;
+    color: rgba(0, 0, 0, 0.7);
   }
+
+  li {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .descricao {
+    order: 3;
+  }
+
+ 
